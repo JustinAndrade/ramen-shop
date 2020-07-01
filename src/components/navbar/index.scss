@@ -1,0 +1,40 @@
+.top-bar {
+  display: flex;
+  background-color: #aa0029;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #fe8734;
+  margin-bottom: 1%;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: #fff;
+      font-size: 1.4rem;
+      text-decoration: none;
+      margin: 1rem;
+      margin-right: 2rem;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    div {
+      display: flex;
+      margin: 1rem;
+      img {
+        height: 100px;
+        width: auto;
+      }
+      h1 {
+        color: #fff;
+      }
+    }
+  }
+
+  svg {
+    fill: #fe8734;
+  }
+}
