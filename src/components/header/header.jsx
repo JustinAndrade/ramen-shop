@@ -9,15 +9,13 @@ const Header = () => {
   return (
     <div className="header">
       <div class="h-imgs">
-        {/* <img className="ramen" src={navRamen} alt="" /> */}
+        <img className="ramen" src={navRamen} alt="" />
       </div>
       <header>
         <h2>
           It's that <br /> simple.
         </h2>
-        <p>
-          FEATURING OUR NEW <br /> SPRING SPECIALS.
-        </p>
+        <p>FEATURING OUR NEW SPRING SPECIALS.</p>
         <div className="btn-container">
           <div>Details</div>
           <div className="h-svg">

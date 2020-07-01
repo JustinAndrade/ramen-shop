@@ -1,13 +1,14 @@
 .header {
   background-color: #aa0031;
   display: flex;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: left;
   justify-content: center;
   text-align: left;
   background-image: url("../../assets/img/header2.png");
+  background-position-y: 100%;
   padding-bottom: 2%;
   .h-imgs {
     position: relative;
@@ -20,23 +21,26 @@
   }
   header {
     margin-top: 5%;
-    width: 30%;
+    width: 40%;
 
     h2 {
-      font-size: 6rem;
+      font-size: 7rem;
+      font-weight: 900;
       margin: 0;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     p {
-      font-size: 2rem;
-      color: #fe8734;
-      font-weight: 500;
+      font-size: 1.5rem;
+      color: #ffad32;
+      font-weight: 700;
+      margin-bottom: 5%;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     .btn-container {
-      margin-top: 10%;
       width: 20%;
       display: flex;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       cursor: pointer;
 
       &:hover {
@@ -57,12 +61,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #fe8734;
+        background: #ffad32;
         width: 20px;
 
         svg {
           fill: #fff;
-          background: #fe8734;
+          background: #ffad32;
         }
       }
     }

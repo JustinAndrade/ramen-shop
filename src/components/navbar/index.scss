@@ -3,13 +3,14 @@
   background-color: #aa0029;
   justify-content: center;
   align-items: center;
-  border-bottom: 5px solid #fe8734;
+  border-bottom: 5px solid #ffad32;
   margin-bottom: 1%;
 
   nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     a {
       color: #fff;
       font-size: 1.4rem;
@@ -18,23 +19,24 @@
       margin-right: 2rem;
 
       &:hover {
-        border-bottom: 3px solid #fe8734;
+        border-bottom: 3px solid #ffad32;
       }
     }
     div {
       display: flex;
-      margin: 1rem;
+      margin: 1rem 5rem;
       img {
         height: 100px;
         width: auto;
       }
       h1 {
-        color: #fff;
+        font-size: 1.7rem;
+        color: #ffad32;
       }
     }
   }
 
   svg {
-    fill: #fe8734;
+    fill: #ffad32;
   }
 }

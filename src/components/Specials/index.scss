@@ -1,0 +1,98 @@
+.specials {
+  background: #bdbdbd;
+  color: #000;
+  padding-top: 5%;
+  height: 850px;
+
+  .spec-container {
+    position: relative;
+    background: #fff;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 5%;
+    border-radius: 3px;
+
+    .spec-tb {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      color: #aa0023;
+      font-weight: 500;
+      font-size: 1.3rem;
+
+      .svg-container {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    h4 {
+      font-size: 4rem;
+      text-align: left;
+      margin: 2% 0 0 0;
+      width: 30%;
+    }
+
+    p {
+      color: #8f8f8f;
+      font-size: 1.2rem;
+      text-align: left;
+      width: 40%;
+      margin: none;
+    }
+
+    .price {
+      font-size: 3.5rem;
+      font-weight: 500;
+      text-align: left;
+      display: block;
+      color: #aa0023;
+    }
+
+    .btn-container {
+      margin: 4% 0;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background: #ffb37c;
+      width: 170px;
+      height: 50px;
+      display: flex;
+      border-radius: 3px;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+
+      p {
+        color: #fff;
+        margin-left: 20%;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+      .h-svg {
+        right: 0;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: #ff9f5a;
+        width: 50px;
+
+        svg {
+          fill: #fff;
+        }
+      }
+    }
+
+    img {
+      border-radius: 5px;
+      position: absolute;
+      height: 105%;
+      width: 50%;
+      top: -2%;
+    }
+  }
+}
