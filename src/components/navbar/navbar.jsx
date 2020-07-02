@@ -1,6 +1,6 @@
 import React from "react";
 
-import navRamen from "../../assets/img/lion-header.png";
+import logo from "../../assets/img/lion-header.png";
 
 import "./index.scss";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="">Menu</a>
         <a href="">Order</a>
         <div style={{ display: "flex" }}>
-          <img src={navRamen} alt="" />
+          <img src={logo} alt="" />
           <h1>
             Jade <br /> Garden
           </h1>

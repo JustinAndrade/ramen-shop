@@ -1,5 +1,7 @@
 import React from "react";
 
+import Footer from "../footer/footer";
+
 import "./index.scss";
 
 const Takeout = () => {
@@ -56,6 +58,7 @@ const Takeout = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
