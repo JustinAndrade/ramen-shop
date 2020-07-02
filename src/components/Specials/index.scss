@@ -28,18 +28,24 @@
     }
 
     h4 {
-      font-size: 4rem;
+      font-size: 3.6rem;
       text-align: left;
       margin: 2% 0 0 0;
-      width: 30%;
+      width: 47%;
+      @media only screen and (max-width: 1200px) {
+        font-size: 3rem;
+      }
     }
 
     p {
       color: #8f8f8f;
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: left;
       width: 40%;
       margin: none;
+      @media only screen and (max-width: 1200px) {
+        font-size: 0.8rem;
+      }
     }
 
     .price {
@@ -48,6 +54,9 @@
       text-align: left;
       display: block;
       color: #aa0023;
+      @media only screen and (max-width: 1200px) {
+        font-size: 3.3rem;
+      }
     }
 
     .btn-container {
@@ -70,7 +79,7 @@
       }
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
       .h-svg {
         right: 0;

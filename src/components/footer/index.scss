@@ -5,6 +5,9 @@
   padding: 8% 0 0 0;
   margin: 0 auto;
   width: 70%;
+  @media only screen and (max-width: 1200px) {
+    width: 100%;
+  }
   .logo {
     display: flex;
     margin: 1rem 5rem;
@@ -19,7 +22,7 @@
     }
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 70%;
     text-align: left;
   }
@@ -54,6 +57,9 @@
   .input-container {
     display: flex;
     margin: 0 7% 0 37%;
+    @media only screen and (max-width: 1200px) {
+      margin-right: 3%;
+    }
     div {
       display: flex;
       justify-content: center;
@@ -70,9 +76,19 @@
       font-size: 1.2rem;
       color: #670b15;
       outline: 0 none;
+      @media only screen and (max-width: 1200px) {
+        height: 40px;
+        font-size: 1rem;
+      }
 
       &::placeholder {
         color: #670b15;
+      }
+    }
+
+    .email-btn {
+      &:hover {
+        cursor: pointer;
       }
     }
   }
@@ -92,9 +108,13 @@
       align-items: center;
       transition: all 0.3s ease-in-out;
       cursor: pointer;
+      @media only screen and (max-width: 1200px) {
+        height: 32px;
+        width: 32px;
+      }
 
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
   }
