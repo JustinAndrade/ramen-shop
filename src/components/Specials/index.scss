@@ -15,8 +15,12 @@
     @media only screen and (max-width: 1200px) {
       height: 500px;
     }
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1000px) {
+      height: 400px;
       width: 80%;
+    }
+    @media only screen and (max-width: 800px) {
+      height: 85%;
     }
 
     .spec-tb {
@@ -123,7 +127,10 @@
         height: 105%;
       }
       @media only screen and (max-width: 800px) {
-        display: none;
+        position: relative;
+        width: 90%;
+        height: auto;
+        margin: 2% 25% 2% 0;
       }
     }
   }

@@ -53,6 +53,7 @@ const Specials = () => {
           </div>
         </div>
         <h4>Spicy Beef Noodle</h4>
+        <img src={beefRamen} alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
           similique eos autem cupiditate libero alias explicabo possimus odit
@@ -73,8 +74,6 @@ const Specials = () => {
             </svg>
           </div>
         </div>
-
-        <img src={beefRamen} alt="" />
       </div>
     </div>
   );
