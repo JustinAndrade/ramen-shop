@@ -8,6 +8,9 @@
   @media only screen and (max-width: 1200px) {
     width: 100%;
   }
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+  }
   .logo {
     display: flex;
     margin: 1rem 5rem;
@@ -15,20 +18,33 @@
     img {
       height: 100px;
       width: auto;
+      @media only screen and (max-width: 1200px) {
+        height: 60px;
+      }
     }
     h1 {
       font-size: 1.7rem;
       color: #ffad32;
+      @media only screen and (max-width: 1200px) {
+        font-size: 1.2rem;
+      }
     }
   }
   p {
     font-size: 1.1rem;
-    width: 70%;
+    width: 90%;
     text-align: left;
+    @media only screen and (max-width: 1200px) {
+      font-size: 0.9rem;
+    }
   }
 
   .nav-container {
     width: 30%;
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+      margin: 4% 0;
+    }
     nav {
       display: flex;
       justify-content: space-around;
@@ -41,6 +57,9 @@
           color: #fff;
           margin: 5px 0;
           text-decoration: none;
+          @media only screen and (max-width: 1200px) {
+            font-size: 0.6rem;
+          }
           &:hover {
             border-bottom: 3px solid #ffad32;
           }
@@ -53,12 +72,19 @@
   display: flex;
   align-items: center;
   padding-bottom: 5%;
+  @media only screen and (max-width: 800px) {
+    display: block;
+  }
 
   .input-container {
     display: flex;
     margin: 0 7% 0 37%;
     @media only screen and (max-width: 1200px) {
       margin-right: 3%;
+    }
+    @media only screen and (max-width: 800px) {
+      justify-content: center;
+      margin: 0;
     }
     div {
       display: flex;
@@ -77,8 +103,14 @@
       color: #670b15;
       outline: 0 none;
       @media only screen and (max-width: 1200px) {
-        height: 40px;
         font-size: 1rem;
+        height: 40px;
+        width: 200px;
+      }
+      @media only screen and (max-width: 800px) {
+        font-size: 0.8rem;
+        height: 30px;
+        width: 150px;
       }
 
       &::placeholder {
@@ -96,6 +128,10 @@
     display: flex;
     justify-content: space-around;
     width: 350px;
+    @media only screen and (max-width: 800px) {
+      margin: 4% 0;
+      width: 100%;
+    }
     .icon {
       background: #aa0029;
       border: 3px solid #ffad32;
