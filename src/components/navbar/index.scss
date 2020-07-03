@@ -66,6 +66,7 @@
     }
   }
   .mobile-nav {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -84,13 +85,14 @@
       display: none;
       position: absolute;
       background: #aa0029;
-      height: 80vh;
-      width: 100vw;
-      top: 5%;
+      height: 200vh;
+      width: 100%;
+      top: 100%;
       left: 0;
     }
     nav {
       flex-direction: column;
+      margin: 0 auto;
       a {
         display: block;
       }
