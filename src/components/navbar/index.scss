@@ -44,9 +44,6 @@
     div {
       display: flex;
       margin: 1rem 3rem;
-      @media only screen and (max-width: 1200px) {
-        margin: 0.4rem 0;
-      }
     }
     .loc {
       @media only screen and (max-width: 1200px) {
@@ -76,6 +73,9 @@
     cursor: pointer;
     @media only screen and (min-width: 1200px) {
       display: none;
+    }
+    @media only screen and (max-width: 1200px) {
+      margin: 0.5rem 0;
     }
     .close {
       display: none;
