@@ -9,6 +9,7 @@ const Takeout = () => {
     <div className="takeout">
       <div className="takeout-h">
         <svg
+          className="late-night"
           width="512"
           height="512"
           viewBox="0 0 512 512"
